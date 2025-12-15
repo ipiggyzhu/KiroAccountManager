@@ -39,6 +39,12 @@
       "desktop": {
         "schemes": ["kiro"]
       }
+    },
+    "updater": {
+      "endpoints": [
+        "https://github.com/ipiggyzhu/KiroAccountManager/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcyRkNGMjlCRDRENkRCRDcKUldUWDI5YlVtL0w4Y3RtNVFyQ2hPL3lXcjVqWEMvMVFYUjVucGpLaFlIOHJLSnhERWtIdisxUVYK"
     }
   },
   "bundle": {
@@ -67,13 +73,5 @@
     },
     "shortDescription": "Kiro 账号管理工具",
     "longDescription": "管理 Kiro IDE 账号，支持多账号切换和配额监控"
-  },
-  "plugins": {
-    "updater": {
-      "endpoints": [
-        "https://github.com/ipiggyzhu/KiroAccountManager/releases/latest/download/latest.json"
-      ],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcyRkNGMjlCRDRENkRCRDcKUldUWDI5YlVtL0w4Y3RtNVFyQ2hPL3lXcjVqWEMvMVFYUjVucGpLaFlIOHJLSnhERWtIdisxUVYK"
-    }
   }
 }

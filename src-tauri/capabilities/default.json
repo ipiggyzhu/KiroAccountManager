@@ -5,6 +5,7 @@
   "windows": ["main", "oauth_google", "oauth_github"],
   "permissions": [
     "core:default",
+    "core:event:default",
     "core:window:allow-create",
     "core:window:allow-close",
     "core:window:allow-show",
@@ -18,6 +19,10 @@
     "updater:default",
     "dialog:default",
     "fs:default",
-    "fs:allow-write-text-file"
+    "fs:allow-write-text-file",
+    "deep-link:default",
+    "deep-link:allow-is-registered",
+    "deep-link:allow-register",
+    "deep-link:allow-unregister"
   ]
 }
